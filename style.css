@@ -4,7 +4,7 @@ body {
 }
 
 .content{
-    background: url("./images/03.jpg");
+    background: url("03.jpg");
     width: 1480px;
     padding: 18pt;
     position: absolute;
@@ -15,7 +15,7 @@ body {
 }
 
 .message{
-    background: url("./images/02.jpg");
+    background: url("02.jpg");
     width: 1300px;
     padding: 80pt;
     position: absolute;
