@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--網頁編碼格式-->
+        <meta charset="UTF-8"></meta>
+        <!--標題-->
+        <title> 軒の個人空間 </title>
+        <link rel = "stylesheet" href="style.css"/>
+        
+
+        <meta name="description" content=" Web text">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="viewport" content="width=decice-width, initial-scale=1.0">
+        <meta meta name="author" content="Li-Hsuan Lu">
+        <meta http-equiv="refresh" content="1800">
+
+    </head>
+    <body>
+        <div class="content">
+            <h2>My name : 盧立軒 (Li-Hsuan Lu)</h2>
+            <h2>English name : Leo</h2>
+            <h3 style="font-size: 22px; font-weight:bold;">Contact Information</h3>  
+            <p style="font-size: 20px; font-weight:bold;">Mail : a0978973216@gmail.com</p>
+            <p style="font-size: 20px; font-weight:bold;">Phone : 0978973216 </p>
+            <p style="font-size: 20px; font-weight:bold;"></p>
+
+        </div>  
+        <!--  h1 ~ h6 (文章重要性排列 h1 字體最大)-->
+        
+        <img src="images/140728.jpg" style="top:320px;
+                                            left:1570px;
+                                            position: absolute;"
+                                            height="350" alt="This is me" title="This is me">
+            
+        <!--
+        <button name = "simple_button" type="button">
+            ask me
+        </button>
+        <button name = "submit_button" type="submit" value="Submit">
+            ask me
+        </button>
+         --> 
+
+        <br>
+        <br>
+
+        <a href="https://www.youtube.com/channel/UC7azg8LmJc8Q7RZtpeNgdDg">
+        <button  style=" background-color:bisque;
+                        color:black;
+                        font-size: 36px;
+                        top:20px;
+                        left:100px;
+                        position: absolute;">
+            YouTube 
+        </button>
+        </a>
+
+        <br>
+        <br>
+
+        <a href="https://www.instagram.com/zhs0404/">
+        <button style=" background-color:bisque;
+                        color:black;
+                        font-size: 36px;
+                        top:100px;
+                        left:100px;
+                        position: absolute;">
+            Instagram 
+        </button>
+        </a>
+
+        <br>
+        <br>
+
+        <a href="https://www.facebook.com/profile.php?id=100001898243488">
+        <button style=" background-color:bisque;
+                        color:black;
+                        font-size: 36px;
+                        top:180px;
+                        left:100px;
+                        position: absolute;">
+            Facebook
+        </button>
+        </a>
+        
+        <div class="message" >
+        <form method="POST" >
+              
+            <label style="color:rgb(1, 12, 12);
+                font-weight:bold;
+                font-size: 36px;
+               font-family:DFKai-sb;">
+               留言板</label>
+
+            <br><br>
+
+            <label for="first_name" style="font-size: 24px; font-family:sans-serif;">姓名 Name   :</label>
+            <input type="text" class="form-control" style="font-size:20px; padding:10px; width: auto;" id="first_name" name="username" placeholder="盧立軒/Li-Hsuan Lu">
+
+            <br><br>
+
+            <label for="Message" style="font-size: 24px; font-family:sans-serif;">訊息 Message:</label>
+            <input type="text" class="form-control" style="font-size:20px; padding:10px; width: auto; z-index: 3; resize: vertical; box-sizing: border-box;" id="Message" name="Message" placeholder="talk about something?">
+
+            <br><br>
+
+            <button onclick="alert('message already send to 軒')" type="button" id="btn" class="btn btn-success" style="font-size: 22px;">
+             Sended  
+            </button>
+
+        </form>
+
+        </div>
+        <div class="list" id="list" style="top:680px;
+        left: 1580px;
+        position: absolute; font-size: 24px;">
+            <!--<div class="item">
+                <div>
+                    <p> 姓名 :</p>
+                    <p> 內容 :</p>
+                </div>
+            </div>-->
+        </div>
+
+        
+        <div class="marquee" style="font-size: 3rem;
+                    font-family: sans-serif;
+                    color:black;">
+            <marquee direction="right" height="100" width="700" scrollamount="10" behavior="alternate">歡迎留言</marquee>
+        </div>
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+            <!--寫在程式下方，可以確保程式順序-->
+
+
+        
+
+        
+
+
+    </body>
+</html>
